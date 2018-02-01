@@ -1,37 +1,45 @@
 html{
     font-size:10px;
-    /*background: url() bottom center;
-    background-size: cover;
-    */
+    background: #485563;
+    background: -webkit-linear-gradient(to right, #29323c, #485563);
+    background: linear-gradient(to right, #29323c, #485563);
+    
 }
 
 body, html{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
-    
+    font-family: sans-serif;    
 }
 
 .keys{
     display: flex;
-    flex: 1;
+    flex-flow: wrap;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
 
 .key{
+    flex: 1 0 calc(2% - 0.05rem);
+    margin-left: 1rem;
+	margin-top: 1rem;
     border: .2rem solid black;
     border-radius: .5rem;
-    margin: 1rem;
     font-size: 1.5rem;
-    padding: 1rem .5rem;
+    padding: .5rem;
     transition: all .07s ease;
     width: 10rem;
     text-align: center;
     color: white;
     background: rgba(0, 0, 0, 0.2);
     text-shadow: 0 0 .5rem black;
+}
+
+kbd{
+    display: block;
+    font-size: 2rem;
+    color: #ffc600;
 }
 
 .playing{
