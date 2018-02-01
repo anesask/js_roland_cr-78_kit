@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Roland 78 | JS</title>
+</head>
+<body>
+
+    <div class="keys">
+        <div data-key="65" class="key">
+            <kbd>A</kbd>
+            <span class="sound">Kick</span>
+        </div>
+        <div data-key="83" class="key">
+            <kbd>S</kbd>
+            <span class="sound">Kick Accent</span>
+        </div>
+        <div data-key="68" class="key">
+            <kbd>D</kbd>
+            <span class="sound">HiHat</span>
+        </div>
+        <div data-key="70" class="key">
+            <kbd>F</kbd>
+            <span class="sound">HiHat Accent</span>
+        </div>
+        <div data-key="71" class="key">
+            <kbd>G</kbd>
+            <span class="sound">HiHat Metal</span>
+        </div>
+        <div data-key="72" class="key">
+            <kbd>H</kbd>
+            <span class="sound">Conga Low</span>
+        </div>
+    </div>
+    
+    <audio data-key="65" src="sound/Kick.wav"></audio>
+    <audio data-key="83" src="sound/Kick Accent.wav"></audio>
+    <audio data-key="68" src="sound/HiHat.wav"></audio>
+    <audio data-key="70" src="sound/HiHat Accent.wav"></audio>  
+    <audio data-key="71" src="sound/HiHat Metal.wav"></audio>
+    <audio data-key="72" src="sound/Conga Low.wav"></audio>
+
+    <script src="js/kit.js"></script>
+</body>
+</html>
