@@ -24,11 +24,11 @@ body, html{
     flex: 1 0 calc(2% - 0.05rem);
     margin-left: 1rem;
 	margin-top: 1rem;
-    border: .2rem solid black;
+    border: .2rem solid white;
     border-radius: .5rem;
     font-size: 1.5rem;
     padding: .5rem;
-    transition: all .07s ease;
+    transition: all .02s ease;
     width: 10rem;
     text-align: center;
     color: white;
@@ -39,11 +39,11 @@ body, html{
 kbd{
     display: block;
     font-size: 2rem;
-    color: #ffc600;
+    color:white;
 }
 
-.playing{
-    transform: scale(1.1);
-    border-color: #ffc600;
-    box-shadow: 0 0 1rem #ffc600;
+.playing{    
+    transform: scale(1.2);
+    border-color: #772331;
+    box-shadow: 0 0 1rem #772331;
 }
